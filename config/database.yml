@@ -1,0 +1,27 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blackjack_dev
+  pool: 5
+  timeout: 5000
+  username: ubuntu
+  password:
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: blackjack_test
+  pool: 5
+  timeout: 5000
+  username: ubuntu
+  password:
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: blackjack_prod
+  pool: 5
+  timeout: 5000
+  username: ubuntu
+  password:
+ 
